@@ -1,0 +1,15 @@
+def reverse(s):
+    str=""
+    for i in s:
+        str = i+str
+    return str
+
+s = "1234abcd"
+print("Original string is : {}".format(s))
+print("Reversed string is : {}".format(reverse(s)))
+
+
+
+Output :-
+Original string is : 1234abcd
+Reversed string is : dcba4321
