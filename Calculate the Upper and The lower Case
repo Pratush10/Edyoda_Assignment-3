@@ -1,0 +1,19 @@
+def my_func(s):
+    u=0
+    l=0
+    for i in s:
+        if i.isupper()==True:
+            u+=1
+        elif i.islower()==True:
+            l+=1
+    print("Original string :",s)
+    print("No. of Uppercase characters :",u)
+    print("No. of Lowercase characters :",l)
+my_func("The quick Brow Fox")
+
+
+
+Output :-
+Original string : The quick Brow Fox
+No. of Uppercase characters : 3
+No. of Lowercase characters : 12
