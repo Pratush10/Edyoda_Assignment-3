@@ -11,4 +11,5 @@ print(summation((list1)))
 
 
 
-Output :   2
+Output :-
+2
