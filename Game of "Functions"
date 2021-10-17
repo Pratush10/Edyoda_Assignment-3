@@ -1,0 +1,14 @@
+list1 = [8,2,3,0,7]
+
+def summation(num):
+    t = 0
+    for i in num:
+        t+=i
+    return t
+
+print(summation((list1)))
+
+
+
+
+Output :   2
